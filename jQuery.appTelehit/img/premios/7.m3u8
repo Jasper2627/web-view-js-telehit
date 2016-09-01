@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=276000,RESOLUTION=320x180,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_0_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=520000,RESOLUTION=320x180,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_1_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=811000,RESOLUTION=480x270,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_2_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1041000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_3_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1268000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_4_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1839000,RESOLUTION=768x432,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_5_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2977000,RESOLUTION=1024x576,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_6_av.m3u8?null=0
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4616000,RESOLUTION=1280x720,CODECS="avc1.77.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://tnhds.televisa.com/i/pmtht/delivery/04/4a/044a750c-e0f6-4844-8253-d32f63bc2bf4/pmtht-l_26112015_nota_premiostelehit2015_bachurito.mp4_,200,400,600,800,1000,1500,2500,4000,k.mp4.csmil/index_7_av.m3u8?null=0
