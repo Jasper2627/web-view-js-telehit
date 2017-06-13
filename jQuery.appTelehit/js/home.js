@@ -25,7 +25,8 @@
                 this._initPrograms();
 				this._initEvents();
 				this._initSpecialSection();
-                this._getMasterFeeds(this.programs['masterFeeds'], this.getURL);	
+                this._getMasterFeeds(this.programs['masterFeeds'], this.getURL);
+               	
             },
             _key : function(obj){
                 return obj;
@@ -34,7 +35,7 @@
             _initPrograms : function(){
 				//this.programs['masterFeeds'] = {'feed':['http://static-feeds.esmas.com/awsfeeds/networks/telehit/telehit.menu.js'],'callback':['telehit_menu']};
 				//this;.programs['masterFeeds'] = {'feed':['http://admin.esmas.com.mx/feeds/telehit/telehit.menu.js'],'callback':['telehit_menu']};
-				this.programs['masterFeeds'] = {'feed':['http://localhost/telehit/feedsTelehit/telehit.menu_local.js'],'callback':['telehit_menu']};
+				this.programs['masterFeeds'] = {'feed':['http://localhost/~carlos.gutierrez/repositorios/web-view-js-telehit/feedsTelehit/telehit.menu_local.js'],'callback':['telehit_menu']};
             },                              
             
             _trimLength : function(text, maxLength) {
@@ -494,7 +495,7 @@
                 var callback = '';
 				setTimeout(function() {
                     $.when(mixController._getData(request.callback[0], request.feed[0])).done(function (responseData){
-						
+
                         if(typeof responseData[0].home[0].jsonp!=='undefined'){
 
 							switch (getURLVal.val){
@@ -506,7 +507,7 @@
 									dataFeed = this.contents['feedMixVideo'] = (responseData[0].home[1].jsonp);									
 									break;
 								case 'videos':
-									dataFeed = this.contents['feedsVideos'] = (responseData[0].videos.jsonp);s
+									dataFeed = this.contents['feedsVideos'] = (responseData[0].videos.jsonp);
 									callback = responseData[0].videos.callback;
 									break;
 								case 'noticias':
@@ -530,6 +531,8 @@
                         }
                         
 						if(getURLVal.val != 'favorites'){
+							console.log("===>>> --> aQUI dataFeed", dataFeed);
+							console.log("===>>> --> aQUI callback", callback);
                             mixController._getDefaultContent(dataFeed, callback);
                         }else{                            
                             mixController._renderContentFavorites();                            
